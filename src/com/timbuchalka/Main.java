@@ -24,5 +24,15 @@ public class Main {
         linkedList.removeItem(new Node("-1"));
         linkedList.iterateList(linkedList.getHead());
 
+
+        String stringData = "1 2 5 6 8 9 7 4 3 5 6 4 1";
+
+        String[] stringArray = stringData.split(" ");
+        for (String i : stringArray){
+            linkedList.addItem(new Node(i));
+        }
+
+        linkedList.iterateList(linkedList.getHead());
+
     }
 }
