@@ -34,5 +34,8 @@ public class Main {
 
         linkedList.iterateList(linkedList.getHead());
 
+
+        linkedList.iterateList(linkedList.getHead());
+
     }
 }
