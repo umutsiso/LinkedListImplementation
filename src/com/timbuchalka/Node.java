@@ -28,11 +28,10 @@ public class Node extends ListItem {
 
     @Override
     int compareTo(ListItem comparedItem) {
-
-        //> 0 ====> COMPARED ITEM SMALLER
-        //< 0 ====> COMPARED ITEM BIGGER
-        // == 0 if they are the same !
-        return ((String) this.getLinkValue()).compareTo((String) comparedItem.getLinkValue());
-
+        if(comparedItem != null) {
+            return ((String) super.getLinkValue()).compareTo((String) comparedItem.getLinkValue());
+        } else {
+            return -1;
+        }
     }
 }

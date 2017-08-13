@@ -32,12 +32,17 @@ public class Main {
 //        }
 //
 //        linkedList.iterateList(linkedList.getHead());
-        String stringArray = "1 2 5 6 8 9 7 4 3 5 6 4 1";
+        String stringArray = "1 9 8 2 3 4 6 4 5";
         SearchTree myTree = new SearchTree(null);
         String[] stringArray2 = stringArray.split(" ");
         for (String i : stringArray2){
             myTree.addItem(new Node(i));
         }
+        myTree.iterateList(myTree.getHead());
+
+        myTree.removeItem(new Node(3));
+        myTree.removeItem(new Node(5));
+        myTree.removeItem(new Node(5));
         myTree.iterateList(myTree.getHead());
 
 

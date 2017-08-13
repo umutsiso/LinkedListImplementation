@@ -55,7 +55,7 @@ public class SearchTree implements NodeList{
         ListItem parentItem = currentItem;
 
         while (currentItem != null) {
-            int comparison = (currentItem.compareTo(item));
+            int comparison = (currentItem.getLinkValue().toString().compareTo(item.getLinkValue().toString()));
             if (comparison < 0) {
                 parentItem = currentItem;
                 currentItem = currentItem.next();
