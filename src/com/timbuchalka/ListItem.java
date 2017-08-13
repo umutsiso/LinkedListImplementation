@@ -7,6 +7,10 @@ public abstract class ListItem {
 
     protected Object linkValue;
 
+    protected void setValue(Object value){
+        this.linkValue = value;
+    }
+
     protected ListItem leftLink;
     protected ListItem rightLink;
 

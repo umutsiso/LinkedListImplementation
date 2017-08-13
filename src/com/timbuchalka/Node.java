@@ -5,6 +5,7 @@ public class Node extends ListItem {
         super(linkValue);
     }
 
+
     @Override
     ListItem next() {
         return this.getRightLink();
