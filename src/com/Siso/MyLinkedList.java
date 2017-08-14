@@ -1,10 +1,6 @@
 //Author : Jake Umut Siso
 
-package com.timbuchalka;
-
-import java.util.List;
-
-
+package com.Siso;
 
 
 public class MyLinkedList implements NodeList{

@@ -1,6 +1,6 @@
 //Author : Jake Umut Siso
 
-package com.timbuchalka;
+package com.Siso;
 
 public class Node extends ListItem {
     public Node(Object linkValue) {

@@ -1,6 +1,6 @@
 //Author : Jake Umut Siso
 
-package com.timbuchalka;
+package com.Siso;
 
 public class SearchTree implements NodeList{
 

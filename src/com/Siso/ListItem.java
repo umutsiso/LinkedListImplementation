@@ -1,9 +1,7 @@
 //Author : Jake Umut Siso
 
-package com.timbuchalka;
+package com.Siso;
 
-
-import java.util.List;
 
 public abstract class ListItem {
 
