@@ -1,6 +1,11 @@
+//Author : Jake Umut Siso
+
 package com.timbuchalka;
 
 import java.util.List;
+
+
+
 
 public class MyLinkedList implements NodeList{
 
